@@ -1,0 +1,71 @@
+/* CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('gambar/gunung.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #040400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    animation: transitionNav 2s; /* Terapkan animasi */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-brand-text {
+    font-family: 'pacifico', cursive;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto 50px;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: transform 0.3s ease-in-out; /* Transisi perubahan ukuran */
+}
+
+.container:hover {
+    transform: scale(1.05); /* Perbesar saat hover */
+}
+
+h1, h2 {
+    color: #003060;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Animasi transisi navbar */
+@keyframes transitionNav {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

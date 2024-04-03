@@ -1,0 +1,93 @@
+/* CSS */
+body {
+    background-image: url('gambar/gunung.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out; /* Transisi perubahan ukuran */
+}
+
+.container:hover {
+    transform: scale(1.05); /* Perbesar saat hover */
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+    animation: transitionNav 2s; /* Transisi navbar */
+}
+
+@keyframes transitionNav {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.navbar-brand-text {
+    font-family: 'pacifico', cursive;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.profile-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.profile-name {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-name h1 {
+    font-size: 32px;
+    margin: 0;
+    color: #040400;
+}
+
+.profile-info p b {
+    display: inline-block;
+    width: 150px;
+}
+
+.profile-info p span {
+    display: inline-block;
+    width: 180px;
+    font-weight: bold;
+}
+
+.profile-info p strong {
+    color: #040400;
+}
+
+.profile-bio p {
+    line-height: 1.6;
+    color: #040400;
+}

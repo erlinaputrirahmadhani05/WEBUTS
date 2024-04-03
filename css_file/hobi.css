@@ -1,0 +1,60 @@
+/* CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('gambar/gunung.jpg');
+    color: transparent;
+    background-color: #87CEEB;
+    margin-top: 70px;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    animation: fadeIn 2s; /* Animasi transisi navbar */
+}
+
+.navbar-brand-text {
+    font-family: 'pacifico', cursive;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.hobby-img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out; /* Transisi perubahan ukuran */
+}
+
+.hobby-img:hover {
+    transform: scale(1.1); /* Perbesar saat hover */
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out; /* Transisi perubahan warna latar belakang */
+}
+/* Animasi transisi navbar */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
